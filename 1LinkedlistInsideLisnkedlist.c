@@ -1,3 +1,4 @@
+/* Linkedlist connected to data of another linkedlist. Primary linked list can be of any size but secondary linked list size is five here */
 #include<stdio.h>
 #include<malloc.h>
 
