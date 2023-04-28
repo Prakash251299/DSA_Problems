@@ -11,7 +11,7 @@ int main(){
 			break;
 		}
 		if(v.size()==0){
-			rightSmall[i] = a.size()-1;
+			rightSmall[i] = a.size();
 			v.push_back(i);
 			i--;
 		}else{
