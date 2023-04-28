@@ -4,7 +4,6 @@ using namespace std;
 int main(){
 	vector<int> a = {2,8,4,6,12,2,5};
 	vector<int>v;
-	vector<int>v1;
 	vector<int>leftSmall;
 	int i=0;
 	while(1){
@@ -12,7 +11,7 @@ int main(){
 			break;
 		}
 		if(v.size()==0){
-			leftSmall.push_back(0);
+			leftSmall.push_back(-1);
 			v.push_back(i);
 			i++;
 		}else{
